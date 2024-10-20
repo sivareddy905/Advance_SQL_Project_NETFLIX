@@ -21,7 +21,9 @@ india.
 15. Categorize the content based on the presence of the keywords 'kill' and 'violence'
   in the description field . Label content containing these keywords as 'bad' and all other 
   content as 'good' . count how many items fall into each category.
+
       
+## Here by code starts
 
 drop table if exists netflix;
 create table netflix(
@@ -41,7 +43,7 @@ description  varchar(250)
 
 select * from netflix;
 
-15 business problems and their solutions
+## 15 business problems and their solutions
 
 1. count the number of movies and tv shows
 
